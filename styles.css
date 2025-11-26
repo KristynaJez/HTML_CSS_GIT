@@ -1,39 +1,59 @@
 /* Apply a style to the entire body */
 body {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin: 50px;
-    background-color: #f0dcdc;
-    padding: 50px;
+max-width: 800px;        /* omezení šířky pro lepší čitelnost */
+  margin: 20px auto;       /* vycentrování doprostřed stránky */
+  padding: 20px;           /* mezera uvnitř sekce */
+  border: 1px solid #333;  /* tenký rámeček kolem celé sekce */
+  border-radius: 8px;      /* jemně zaoblené rohy */
+  line-height: 1.6;        /* příjemné řádkování */
+  font-size: 16px;         /* pohodlná velikost písma */
+  text-align: centre;     /* zarovnání textu do bloku */
+  box-sizing: border-box
 }
 
-/* Dark blue background */
-/* Style for the H1 heading */
-
+/* Style for the hlavni nadpis */
 h1 {
-    color: #0d0d1a; /* Dark blue color */
+    color: #0d0d1a; 
     border-bottom: 2px solid #1010ce;
     padding-bottom: 10px;
+    background-color: #93b5f100;;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
 }
 
 /* Style for the paragraph */
 p {
     color: #110000; /* Gray color */
-    line-height: 1.6;
+    line-height: 1.8; /* Increase line height for better readability */
+    margin-bottom: 20px; /* Space below paragraphs */
 }
 
+
+/* Style for the header */
 .hlavicka {
     list-style-type: none;
     padding: 30px;
     margin: 20px 0;
+    background-color: #f7b2c78f;;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    
+}
+/* Style for menu */
+.menu{
+    list-style-type: none;
+    padding: 30px;
+    margin: 30px;
     background-color: #f7b2c78f;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
     
 }
-.menu, .paticka {
+/* Style for footer */
+.paticka{
     list-style-type: none;
     padding: 30px;
-    margin: 20px 0;
+    margin: 30px;
     background-color: #f7b2c78f;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
@@ -52,7 +72,15 @@ img,
 }
 
 #necomaloomne {
-  text-align: center;
+  max-width: 800px;        /* omezení šířky pro lepší čitelnost */
+  margin: 20px auto;       /* vycentrování doprostřed stránky */
+  padding: 20px;           /* mezera uvnitř sekce */
+  border: 1px solid #333;  /* tenký rámeček kolem celé sekce */
+  border-radius: 8px;      /* jemně zaoblené rohy */
+  line-height: 1.6;        /* příjemné řádkování */
+  font-size: 16px;         /* pohodlná velikost písma */
+  text-align: centre;     /* zarovnání textu do bloku */
+  box-sizing: border-box
 }
 #hurajetotam {
   text-align: center;

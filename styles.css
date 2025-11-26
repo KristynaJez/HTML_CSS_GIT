@@ -1,19 +1,30 @@
 /* Apply a style to the entire body */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 40px;
-    background-color: #f4f4f4;
+    background-color: #f0dcdc;
 }
 
+/* Dark blue background */
 /* Style for the H1 heading */
+
 h1 {
-    color: #333366; /* Dark blue color */
-    border-bottom: 2px solid #333366;
+    color: #0d0d1a; /* Dark blue color */
+    border-bottom: 2px solid #1010ce;
     padding-bottom: 10px;
 }
 
 /* Style for the paragraph */
 p {
-    color: #555555; /* Gray color */
+    color: #110000; /* Gray color */
     line-height: 1.6;
+}
+
+.menu, .paticka {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+    background-color: #f7b2c78f;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+   
 }

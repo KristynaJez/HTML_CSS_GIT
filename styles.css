@@ -1,8 +1,9 @@
 /* Apply a style to the entire body */
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin: 40px;
+    margin: 50px;
     background-color: #f0dcdc;
+    padding: 50px;
 }
 
 /* Dark blue background */
@@ -20,11 +21,46 @@ p {
     line-height: 1.6;
 }
 
-.menu, .paticka {
+.hlavicka {
     list-style-type: none;
-    padding: 0;
+    padding: 30px;
     margin: 20px 0;
     background-color: #f7b2c78f;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-   
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    
 }
+.menu, .paticka {
+    list-style-type: none;
+    padding: 30px;
+    margin: 20px 0;
+    background-color: #f7b2c78f;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    
+}
+
+img,
+#necomaloomne,
+#hurajetotam,
+#jdemedofinale,
+#kontakt,
+#paticka {
+  display: block;
+  margin: 0 auto;
+  width: 70%;
+}
+
+#necomaloomne {
+  text-align: center;
+}
+#hurajetotam {
+  text-align: center;
+}
+#jdemedofinale {
+  text-align: center;
+}
+#kontakt {
+  text-align: center;
+}
+

@@ -3,7 +3,7 @@ body {
 max-width: 800px;        /* omezení šířky pro lepší čitelnost */
   margin: 20px auto;       /* vycentrování doprostřed stránky */
   padding: 20px;           /* mezera uvnitř sekce */
-  border: 1px solid #333;  /* tenký rámeček kolem celé sekce */
+  border: 1px solid #3a3939;  /* tenký rámeček kolem celé sekce */
   border-radius: 8px;      /* jemně zaoblené rohy */
   line-height: 1.6;        /* příjemné řádkování */
   font-size: 16px;         /* pohodlná velikost písma */
@@ -15,6 +15,15 @@ max-width: 800px;        /* omezení šířky pro lepší čitelnost */
 h1 {
     color: #0d0d1a; 
     border-bottom: 2px solid #1010ce;
+    padding-bottom: 10px;
+    background-color: #93b5f100;;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+/* Style for the ostatní nadpisy */
+h2 {
+    color: #0d0d1a; 
     padding-bottom: 10px;
     background-color: #93b5f100;;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -59,18 +68,14 @@ p {
     text-align: center;
     
 }
-
-img,
-#necomaloomne,
-#hurajetotam,
-#jdemedofinale,
-#kontakt,
-#paticka {
+/* Style for fotky*/
+img {
   display: block;
-  margin: 0 auto;
-  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
+/* Style for vnitrni ramecek*/
 #necomaloomne {
   max-width: 800px;        /* omezení šířky pro lepší čitelnost */
   margin: 20px auto;       /* vycentrování doprostřed stránky */
@@ -82,6 +87,9 @@ img,
   text-align: centre;     /* zarovnání textu do bloku */
   box-sizing: border-box
 }
+#necomaloomne {
+  text-align: center;
+}
 #hurajetotam {
   text-align: center;
 }
@@ -91,4 +99,5 @@ img,
 #kontakt {
   text-align: center;
 }
+
 
